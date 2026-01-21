@@ -1,16 +1,82 @@
-# React + Vite
+# Resume & Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal **resume and portfolio website** built using **React + Vite**, styled with **Tailwind CSS**, and enhanced with **Framer Motion animations**.
 
-Currently, two official plugins are available:
+This project represents my professional profile, experience, and skills as a **Front End Developer**, and demonstrates how AI-assisted development can be used effectively to build production-ready applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
+👉 (Add your deployed link here once live)  
+Example: https://yourname.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Component-based UI development
+- **Vite** – Fast build tool and development server
+- **Tailwind CSS** – Utility-first styling
+- **Framer Motion** – Animations and transitions
+- **ESLint** – Code quality and linting
+
+---
+
+## ✨ Features
+
+- Responsive, mobile-first design
+- Dark / Light mode toggle
+- Animated hero and section transitions
+- Skills visualization with progress bars
+- Timeline-based experience section
+- Project cards with GitHub & live links
+- Downloadable resume (PDF)
+- Accessible and SEO-friendly structure
+- Clean, reusable component architecture
+
+---
+
+## 🧠 AI-Assisted Development
+
+This project was **designed and implemented with the help of AI tools** for:
+- UI layout and design refinement
+- Component structuring
+- Accessibility and UX improvements
+- Code optimization and best practices
+
+All logic, customization, and final integration were **reviewed, adapted, and owned by me**.
+
+> AI was used as a productivity and ideation tool — not as a replacement for engineering judgment.
+
+---
+
+## 📂 Project Structure
+resume-app/
+├─ public/
+│  └─ Ahmed_Mohammad_Resume.pdf
+├─ src/
+│  ├─ components/
+│  │  ├─ Navbar.jsx
+│  │  ├─ Hero.jsx
+│  │  ├─ About.jsx
+│  │  ├─ Skills.jsx
+│  │  ├─ Experience.jsx
+│  │  ├─ Projects.jsx
+│  │  ├─ Education.jsx
+│  │  └─ Contact.jsx
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
+├─ package.json
+└─ README.md
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone git@github.com:MohdAmz/-resume-portfolio.git
+cd resume-app
+npm install
+npm run dev
+http://localhost:5173
