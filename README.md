@@ -80,3 +80,7 @@ cd resume-app
 npm install
 npm run dev
 http://localhost:5173
+
+
+Extra:
+Prompt for creating a custom chatgpt : I want to build a custom GPT that knows my full online course. It should be able to perform tasks such as summarize lessons, translate content into other languages, and track how often certain topics or tools are mentioned across different lessons. You can also expand to use cases that could be beneficial to the course's students. Can you help me write detailed GPT instructions for that?
